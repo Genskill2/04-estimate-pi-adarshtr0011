@@ -6,7 +6,7 @@
 float mc_pi(int);
 
 float frandom() {
-  long int q = random();
+  long int q = rand();
   float ret = (float)q/(float)RAND_MAX;
   return ret;
 }
@@ -52,10 +52,10 @@ float mc_pi(int a)
  
     
     if(sqrt(z)<=1)
-    { s1=s1+1; }
+     { s1++; }
     
-      else
-      { s2=s2+1; }
+       else
+       { s2++; }
   }
   
   float pi = 4*(float)s1/s2;
