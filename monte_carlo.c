@@ -45,10 +45,10 @@ float mc_pi(int a)
   for(int i=0;i<a;i++)
   {
       
-    int x= frandom();
-    int y= frandom();
-    int z= (x*x) + (y*y);
-    int d= sqrt(z);
+    float x= frandom();
+    float y= frandom();
+    float z= (x*x) + (y*y);
+    float d= sqrt(z);
     
     if(d<=1)
     { s1=s1+1; }
