@@ -51,14 +51,14 @@ float mc_pi(int a)
     z= (x*x) + (y*y);
  
     
-    if(z<=1)
+    if(sqrt(z)<=1)
     { s1=s1+1; }
     
-    else
-    { s2=s2+1; }
+      else
+      { s2=s2+1; }
   }
   
-  float pi = 4*(float)(s1/s2);
+  float pi = 4*(float)s1/s2;
   
   
   return pi;
