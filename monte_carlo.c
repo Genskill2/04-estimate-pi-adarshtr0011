@@ -50,7 +50,7 @@ float mc_pi(int n)
     x= frandom();
     y= frandom();
     
-    if((x*x)+(y*y))<=1)
+    if(((x*x)+(y*y))<=1)
        { s1++; }
     
        else
