@@ -49,16 +49,16 @@ float mc_pi(int a)
     x= frandom();
     y= frandom();
     z= (x*x) + (y*y);
-    d= sqrt(z);
+ 
     
-    if(d<=1)
+    if(z<=1)
     { s1=s1+1; }
     
     else
     { s2=s2+1; }
   }
   
-  float pi = 4*(s1/s2);
+  float pi = 4*(float)(s1/s2);
   
   
   return pi;
