@@ -39,26 +39,25 @@ int main(void) {
   }
 }
 
-float mc_pi(int a)
+float mc_pi(int n)
 { 
-  int s1=0,s2=0;
-  float x,y,z;
-  for(int i=0;i<a;i++)
+  int s1=0;
+  int s2=0;
+  float x,y;
+  for(int i=1;i<n;i++)
   {
       
     x= frandom();
     y= frandom();
-    z= (x*x) + (y*y);
- 
     
-    if(sqrt(z)<=1)
-     { s1++; }
+    if((x*x)+(y*y))<=1)
+       { s1++; }
     
        else
        { s2++; }
   }
   
-  float pi = 4*(float)s1/(float)s2;
+  float pi = 4*(float)s1/s2;
   
   
   return pi;
