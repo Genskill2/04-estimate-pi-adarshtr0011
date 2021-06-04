@@ -56,6 +56,7 @@ float mc_pi(int n)
        else
        { s2++; }
   }
+   s2+s2+s1;
   
   float pi = 4*(float)s1/s2;
   
