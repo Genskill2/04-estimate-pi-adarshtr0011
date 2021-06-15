@@ -11,7 +11,8 @@ float frandom() {
   return ret;
 }
 
-int main(void) {
+int main(void) 
+{
   float pi0;
   float pi1;
   
