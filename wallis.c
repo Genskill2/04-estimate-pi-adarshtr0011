@@ -5,7 +5,8 @@
 
 float wallis_pi(int);
 
-int main(void) {
+int main(void) 
+{
   float pi;
   for (int i=0; i<5; i++) {
     pi = wallis_pi(i);
